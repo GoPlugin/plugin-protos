@@ -1,0 +1,4 @@
+* @goplugin/op-core
+
+/job-distributor/ @goplugin/op-core
+/orchestrator/ @goplugin/op-core

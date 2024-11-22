@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package api.app.v1;
+
+option go_package = "github.com/goplugin/plugin-protos/job-distributor/v1/app";
+
+// AppService exposes one endpoint for querying the version of the API
+service AppService {
+  rpc Version(VersionRequest) returns (VersionResponse) {}
+}
+
+message VersionRequest {}
+
+message VersionResponse { string version = 1; }
