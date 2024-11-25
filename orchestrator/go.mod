@@ -3,7 +3,8 @@ module github.com/goplugin/plugin-protos/orchestrator
 go 1.22.5
 
 require (
-	github.com/goplugin/wsrpc v0.8.2
+	github.com/goplugin/wsrpc v0.1.1 //plugin update changes
+	//github.com/goplugin/wsrpc v0.8.2
 	google.golang.org/protobuf v1.35.1
 )
 
